@@ -191,13 +191,23 @@ h1 {
    About
 ========================= */
 
-.about {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 .about p {
   font-size: 13px;
   line-height: 1.6;
 }
 
+.about {
+  max-width: 800px;
+  margin: 120px auto;
+}
+
+.about-image {
+  margin-top: 60px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
